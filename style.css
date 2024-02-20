@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+   
+    margin: auto;
+    width: 98vw;
+    height: 96vh;
+    margin-top: 12px;
+    position: relative;
+}
+#topleft{
+    background-color: rgb(249, 93, 93) ;
+    border: solid red ;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#topright{
+    background-color: rgb(246, 246, 161) ;
+    border: solid yellow ;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#bottomleft{
+    background-color: rgb(255, 209, 123) ;
+    border: solid orange ;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#bottomright{
+    background-color: rgb(255, 213, 255);
+    border: solid violet ;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#centro1{
+    border: solid green;
+    background-color: rgb(127, 195, 127);
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    height: 100px;
+    width: 200px;
+}
+#centro2{
+    border: solid gray;
+    background-color: rgb(229, 229, 229);
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    height: 100px;
+    width: 200px;
+}
+
+
